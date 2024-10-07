@@ -1,0 +1,12 @@
+.headers{
+    font-size:23px;
+    background-color:lightblue;
+}
+.left_section{
+    background-color: black;
+    display: flex 1 ;
+}
+.right_section{
+    display: flex 1;
+    
+}
