@@ -43,6 +43,15 @@ ul {
     text-align: center;
     padding: 10px 20px;
     margin-left:200px;
-    
+}
+.album-covers{
+    max-width: 300px;
+    height: auto;
+}
+.subtext{
+    font-size:18px;
+    width: 400px; 
+    /*color: #E5E7EB;*/
+    word-wrap: break-word;
 }
 
