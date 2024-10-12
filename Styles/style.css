@@ -1,18 +1,17 @@
-.header{
+.header {
     font-size: 23px;
-    background-color: color #1f2937;
+    background-color: #1f2937;
     display: flex;
-    flex: 1;
-    margin-left: 30px;
-    margin-right: 40px;
-    color: white; 
+    justify-content: space-between;
+    margin: 0;
+    color: white;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
 }
-.nav-bar{
-    
+.nav-bar {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     align-items: center;
 }
 ul li {
@@ -21,7 +20,6 @@ ul li {
     padding: 5px 10px; /* padding inside each li element */
 }
 ul {
-    background-color:darkblue;
     margin: 0; /* remove default margins */
     padding: 12px 0; 
     display: flex;
@@ -39,19 +37,91 @@ ul {
     padding-top: 12px;
 }
 .home {
-    background-color: black;
     text-align: center;
     padding: 10px 20px;
     margin-left:200px;
 }
-.album-covers{
-    max-width: 300px;
-    height: auto;
+.album-covers {
+    max-width: 260px; /* Adjust width as needed */
+    margin-left: 100px; /* Add some space between the image and text */
 }
-.subtext{
-    font-size:18px;
-    width: 400px; 
-    /*color: #E5E7EB;*/
-    word-wrap: break-word;
+.album-covers img {
+    width: 100%; /* Make the image fit the container */
+    height: 100%; 
+}
+.title{
+    margin-left:215px;
+    text-align: left; /* Aligns the text with the content */
+    width: 100%; /* Makes sure the h1 stretches across */
+    font-size: 24px; /* Adjust the size if needed */
+}
+.content {
+    display: flex;
+    align-items: flex-start; /* Align items at the top */
+    gap: 20px;
+    max-width: 1000px;
+    margin-left: 215px;
+    margin-top: 0;
 }
 
+.subtext{
+    font-size: 18px;
+    width: 60%; 
+    word-wrap: break-word;
+    margin-right: 20px;
+    color:#E5E7EB;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 20px; 
+    max-width: 1000px; 
+    flex-wrap: wrap; 
+}
+.hero{
+    padding: 50px 20px; /* Adjust padding for consistency */
+    padding-left: 0PX;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: #F9FAF8;
+    font-family: 'Roboto', sans-serif;
+}
+.top-artists{
+    padding-top: 20px;
+    padding-bottom:20px;
+    text-align:center;
+    font-size: 36px;
+    font-weight:900px;
+    color:#1F2937;
+}
+.container {
+    display: flex;
+    justify-content: center; /* Center the items */
+    gap: 60px; /* Space between items */
+    flex-wrap: wrap; /* Allow wrapping if the screen size is too small */
+    margin: 20px auto;
+    padding: 10px;
+}
+
+/* Individual item styling */
+.item {
+    text-align: center;
+    max-width: 200px; /* Limit the width of each item */
+}
+
+.item img {
+    width: 100%; /* Make the image take up the full width of the container */
+    border-radius: 10px; /* Rounded corners for images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow to the image */
+}
+
+.caption {
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
